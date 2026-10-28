@@ -1,6 +1,9 @@
-# Baseline for the sandbox: metadata only, no trusted publishing fields.
+# Trusted publishing fields present: triggers the default-branch protection check.
 project:
   metadata:
     key: infrastructure-asfyaml-sandbox
     committee: infrastructure
     name: Apache Sandbox
+  policy:
+    github_vote_workflow_path:
+      - .github/workflows/vote.yml
