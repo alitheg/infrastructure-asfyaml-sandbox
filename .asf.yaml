@@ -1,0 +1,6 @@
+# Baseline for the sandbox: metadata only, no trusted publishing fields.
+project:
+  metadata:
+    key: infrastructure-asfyaml-sandbox
+    committee: infrastructure
+    name: Apache Sandbox
