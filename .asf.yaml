@@ -3,7 +3,7 @@ project:
   metadata:
     key: infrastructure-asfyaml-sandbox
     committee: infrastructure
-    name: Apache Sandbox
+    name: Apache Sandbox Renamed
   policy:
     github_vote_workflow_path:
       - .github/workflows/vote.yml
