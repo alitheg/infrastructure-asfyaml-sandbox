@@ -6,4 +6,4 @@ project:
     name: Apache Sandbox Renamed
   policy:
     github_vote_workflow_path:
-      - .github/workflows/vote.yml
+      - .github/workflows/vote-reviewed.yml
